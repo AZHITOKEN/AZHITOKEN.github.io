@@ -147,7 +147,7 @@
             </li>
                        
             <li class="new-menu-item">
-              <a class="new-menu-item-link" href="https://docs.phenix.finance/"
+              <a class="new-menu-item-link" href="#"
                 >Whitepaper</a
               >
             </li>
@@ -155,7 +155,7 @@
               <a class="menu-item-link" href="#roadmaps">Roadmaps</a>
             </li>
             <li class="new-menu-item">
-              <a class="new-menu-item-link" href="https://app.phenix.finance/"
+              <a class="new-menu-item-link" href="#"
                 >Dashboard</a
               >
             </li>
@@ -186,7 +186,7 @@
                   >
                 </div>
                 <div class="hero-btn-box">
-                  <a href="https://docs.phenix.finance/" class="hero-btn"
+                  <a href="#" class="hero-btn"
                     >Whitepaper</a
                   >
                 </div>
@@ -275,7 +275,7 @@
         </div>
         <div class="features-grid">
           <div class="features-box">
-            <div class="features-box-icon">
+            <div class="features-box-icon" align="center">
               <img src="img/f-1.svg" alt="" />
             </div>
             <div class="features-box-content">
@@ -288,24 +288,24 @@
               <button class="btn hero-btn-box btn-lg" id="connect" >Connect</button> 
               <button class="btn hero-btn-box btn-lg" id="addMainBSC">To BSC Mainnet</button>
               <br /> <br />
-              <span id="nometamask" class="textwhitecolor" style="display: none">Please install Metamask first...</span><div class="network small">
-              <span id="curnet" class="textwhitecolor">
-              <span class="textwhitecolor">Please use DApp browser/extension (e.g. <a target="_blank" href="https://metamask.io">Metamask</a>)</span></span> 
-              <span id="myAddr" class="textwhitecolor"></span>
-              <span id="referred" style="" class="textwhitecolor"><br>Referrer: 
-                <span class="textwhitecolor" id="referrer"></span>
+              <span id="nometamask" class="textwhitecolor blockquote" style="display: none">Please install Metamask first...</span><div class="network small">
+              <span id="curnet" class="textwhitecolor blockquote">
+              <span class="textwhitecolor blockquote">Please use DApp browser/extension (e.g. <a target="_blank" href="https://metamask.io">Metamask</a>)</span></span> 
+              <span id="myAddr" class="textwhitecolor blockquote"></span>
+              <span id="referred" style="" class="textwhitecolor blockquote"><br>Referrer: 
+                <span class="textwhitecolor blockquote" id="referrer"></span>
               </span>
               </div>
           <hr class="bg-danger border-3 border-top border-info">
           </div>
                 <div class="section-title text-center" style="">
                 <h3 class="textwhitecolor"><span id="tokenName">AZHI Token</span> (<span class="tokenSymbol">$AZHI</span>)</h3>
-                <span><a class="textwhitecolor" target="_blank" href="https://bscscan.com/token/0x5d979af7c799d542beb62137f8570888b2173969" id="tokenAddress">0x5d979af7c799d542beb62137f8570888b2173969</a>
+                <span><a class="text-warning blockquote" style="text-decoration:none"  target="_blank" href="https://bscscan.com/token/0x5d979af7c799d542beb62137f8570888b2173969" id="tokenAddress">0x5d979af7c799d542beb62137f8570888b2173969</a>
                 </span>
                 <hr class="bg-danger border-3 border-top border-info">
-                <span class="textwhitecolor">Do not send BNB to the token contract!</span>
+                <span class="textwhitecolor blockquote">Do not send BNB to the token contract!</span>
                 <div> <br /> 
-                <button class="btn hero-btn-box btn-lg" id="addToken" style="text-align: center">Add to Metamask</button> 
+                <button class="btn hero-btn-box btn-lg " id="addToken" style="text-align: center">Add to Metamask</button> 
                 <button class="btn hero-btn-box btn-lg" id="copyToken" style="text-align: center">Copy address</button>
             </div>      
         </div>
@@ -313,7 +313,7 @@
             </div>
           </div>
           <div class="features-box">
-            <div class="features-box-icon">
+            <div class="features-box-icon" align="center">
               <img src="img/f-2.svg" alt="" align="center" />
             </div>
             <div class="features-box-content">
@@ -323,58 +323,57 @@
               <p class="paragraph_one features-box-content-paragraph">
 
             <ul>
-                <li>
-                  <span id="finished" style="display:none" class="status green">Finished</span>
-                    <span id="addtokens" style="display:none" class="status err">
+               
+                  <span id="finished" style="display:none" class="status green blockquote">Finished</span>
+                    <span id="addtokens" style="display:none" class="status err blockquote">
                     <br />Ask token sale admin to approve token sale contract or check tokens balance on the wallet!</span>
-                    <p class="textwhitecolor"><span id="active" style="display:none" class="status green">Active</span>
-                    <span id="paused" style="display:none" class=" status err">Paused</span>
-                    <span id="upcoming" style="display:none" class="status blue">Upcoming</span>
-                    <span id="upcomingtimer" style="display:none" class="status blue"><br>begins in <span id="starttimer"></span></span>
-                    <span id="activetimer" style="display:none" class="status green"><br>ends in <span id="endtimer"></span></span>
-                </li>
+                    <p class="textwhitecolor blockquote"><span id="active" style="display:none" class="status green">Active</span>
+                    <span id="paused" style="display:none" class=" status err blockquote">Paused</span>
+                    <span id="upcoming" style="display:none" class="status blue blockquote">Upcoming</span>
+                    <span id="upcomingtimer" style="display:none" class="status blue blockquote"><br>begins in <span id="starttimer"></span></span>
+                    <span id="activetimer" style="display:none" class="status green blockquote"><br>ends in <span id="endtimer"></span></span>
+                
             </ul>
             <ul>
-                <li>
-                    <progress class="progress-bar" id="progress" value="0" max="100" style="width: 100%">
+               
+                    <progress class="progress-bar blockquote" id="progress" value="0" max="100" style="width: 100%">
                     </progress>
-                        </li>
-                            <li class="textwhitecolor">
-                                Raised: <span id="raised"></span> of <span class="hardcap"></span> BNB
-                            </li>
+                       
+                     
+                                <p class="blockquote"> Raised: <span id="raised"></span> of <span class="hardcap"></span> BNB</p>
+                           
                                 <hr class="bg-danger border-3 border-top border-info">
-                            <li class="textwhitecolor">
-                                Tokens sold: <span id="sold"></span> of <span class="saleqty"></span> <span class="tokenSymbol">$AZHI</span>
-                            </li>
+                           
+                                <p class="blockquote"> Tokens sold: <span id="sold"></span> of <span class="saleqty "></span> <span class="tokenSymbol blockquote">$AZHI</span></p>
+                          
                                 <hr class="bg-danger border-3 border-top border-info">
-                            <li class="textwhitecolor">
-                                Remaining: <span id="toraise"></span> BNB (~ <span id="unsold"></span> <span class="tokenSymbol">$AZHI</span>)
-                            </li>
+                           
+                                <p class="blockquote"> Remaining: <span id="toraise"></span> BNB (~ <span id="unsold"></span> <span class="tokenSymbol">$AZHI</span>) </p>
+                          
                                 <hr class="bg-danger border-3 border-top border-info">
-                            <li class="textwhitecolor">
-                                Rate: 1 BNB = <span class="rate"></span> <span class="tokenSymbol">$AZHI</span> (~ <span class="price"></span> BNB/<span class="tokenSymbol">$AZHI</span>)
-                            </li>
+                           
+                                <p class="blockquote"> Rate: 1 BNB = <span class="rate"></span> <span class="tokenSymbol">$AZHI</span> (~ <span class="price"></span> BNB/<span class="tokenSymbol">$AZHI</span>) </p>
+                           
                                 <hr class="bg-danger border-3 border-top border-info">
-                            <li class="textwhitecolor">
-                                Purchase limit: <span class="max"></span>
-                            </li>
+                           
+                                <p class="blockquote"> Purchase limit: <span class="max"></span></p>
+                           
                                 <hr class="bg-danger border-3 border-top border-info">
-                            <li class="textwhitecolor">
-                                Start: <span id="start"></span>
-                            </li>
+                       
+                                <p class="blockquote"> Start: <span id="start"></span></p>
+                        
                                 <hr class="bg-danger border-3 border-top border-info">
-                            <li class="textwhitecolor">
-                                End: <span id="end"></span>
-                            </li>
+                            
+                                <p class="blockquote"> End: <span id="end"></span></p>
+                           
                                 <hr class="bg-danger border-3 border-top border-info">
-                            <li class="textwhitecolor">
-                                Duration: <span id="duration"></span>
-                            </li>
-              </p>
+                            
+                                <p class="blockquote"> Duration: <span id="duration"></span></p>
+                              </p>
             </div>
           </div>
           <div class="features-box">
-            <div class="features-box-icon">
+            <div class="features-box-icon" align="center">
               <img src="img/f-3.svg" alt="" />
             </div>
             <div class="features-box-content">
@@ -383,66 +382,65 @@
               </h4>
               <p class="paragraph_one features-box-content-paragraph">
                
-         <p class="textwhitecolor">1 BNB = <span class="rate"></span> 
-         <span class="tokenSymbol">$AZHI</span></p>
+         <p class="textwhitecolor blockquote">1 BNB = <span class="rate"></span> 
+         <span class="tokenSymbol blockquote">$AZHI</span></p>
             <hr class="bg-danger border-3 border-top border-info">
-            <p><input type="number" id="buyAmount" value="0" min="0.5" class="form-control md-3" /></p>
-            <p class="textwhitecolor">You get: <span id="get">0</span> <span class="tokenSymbol">$AZHI</span></p>
-            <p><button class="btn hero-btn-box btn-lg" id="buyBtn" style="text-align: center">Buy Azhi Token</button></p>
+            <p><input type="number" id="buyAmount" value="0" min="0.005" class="form-control btn-lg" /></p>
+            <p class="textwhitecolor blockquote">You get: <span id="get">0</span> <span class="tokenSymbol blockquote">$AZHI</span></p>
+            <p align="center"><button class="btn hero-btn-box btn-lg" id="buyBtn" style="text-align: center">Buy Azhi Token</button></p>
             <hr class="bg-danger border-3 border-top border-info">
-            <p class="textwhitecolor">You have contributed <span id="mySpendings">?</span> of <span class="max">?</span> BNB maximum purchase limit,can spend max. <span id="myRemaining">?</span> BNB more</p>
+            <p class="textwhitecolor blockquote">You have contributed <span id="mySpendings">?</span> of <span class="max blockquote">?</span> BNB maximum purchase limit,can spend max. <span id="myRemaining">?</span> BNB more</p>
             <hr class="bg-danger border-3 border-top border-info">
-            <p class="textwhitecolor">In my wallet: <span id="myTokens"></span> <span class="tokenSymbol" style="color:#fff">$AZHI</span></p>
+            <p class="textwhitecolor blockquote">In my wallet: <span id="myTokens"></span> <span class="tokenSymbol" style="color:#fff">$AZHI</span></p>
                         </div>
         </div>
               
            
-          
           <div class="features-box">
-            <div class="features-box-icon">
+            <div class="features-box-icon" align="center">
               <img src="img/f-4.svg" alt="" />
             </div>
             <div class="features-box-content">
-              <h4 class="heading_Four features-box-content-heading" align="center">
+              <h4 class="heading_Four features-box-content-heading " align="center">
                 SALE CONTRACT
               </h4>
-              <p class="paragraph_one features-box-content-paragraph">
+              <p class="blockquote">
                You can also buy tokens by sending BNB directly from your wallet to this contract
                (please increase gas limit to 200,000
-               <hr class="bg-danger border-2 border-top border-danger">
-               <span><a href="https://bscscan.com/address/0x879532D4C403B69f45DC28A3B4251478632587Ca" target="_blank" id="saleAddress" >0x879532D4C403B69f45DC28A3B4251478632587Ca</a></span>
-               <hr class="bg-danger border-2 border-top border-danger">
-               <div>
+               <hr class="bg-danger border-3 border-top border-info">
+               <span><a href="https://bscscan.com/address/0x879532D4C403B69f45DC28A3B4251478632587Ca" target="_blank" id="saleAddress" class="text-warning blockquote" style="text-decoration:none" >0x879532D4C403B69f45DC28A3B4251478632587Ca</a></span>
+               <hr class="bg-danger border-3 border-top border-info">
+               <div align="center">
                <button class="btn hero-btn-box btn-lg" id="copySale" style="text-align: center">Copy address</button>
                </div>
-               <hr class="bg-danger border-2 border-top border-danger">
+               <hr class="bg-danger border-3 border-top border-info">
                <div style="text-align: center" id="saleqr"></div>
               </p>
             </div>
           </div>
           <div class="features-box">
-            <div class="features-box-icon">
+            <div class="features-box-icon" align="center">
               <img src="img/f-5.svg" alt="" />
             </div>
             <div class="features-box-content">
               <h4 class="heading_Four features-box-content-heading" align="center">
-                REFERRAL PROGRAM
+                REFERRALS
               </h4>
               <p class="paragraph_one features-box-content-paragraph">
                <h1 class="textwhitecolor abouth" align="center"></h1>
-         <span class="textwhitecolor">Share your referral link and get paid instantly to your wallet for every referred token purchase.</span><br />
+         <span class="textwhitecolor blockquote">Share your referral link and get paid instantly to your wallet for every referred token purchase.</span><br />
          <hr class="bg-danger border-3 border-top border-info">
-         <span class="textwhitecolor">Total paid to referrers: <span id="refTotal"></span> BNB</span><br />
+         <span class="textwhitecolor blockquote">Total paid to referrers: <span id="refTotal"></span> BNB</span><br />
          <hr class="bg-danger border-3 border-top border-info">
-         <span class="textwhitecolor">Referral commission: <span id="refPercent">5</span>%</span><br />
+         <span class="textwhitecolor blockquote">Referral commission: <span id="refPercent">5</span>%</span><br />
          <hr class="bg-danger border-3 border-top border-info">
-         <span class="textwhitecolor">Your referral earnings: <span id="refMy"></span> BNB</span><br />
+         <span class="textwhitecolor blockquote">Your referral earnings: <span id="refMy"></span> BNB</span><br />
          <hr class="bg-danger border-3 border-top border-info">
-         <span class="textwhitecolor">Share your referral link or QR code and get commission for referred token purchases instantly to your wallet.</span>
+         <span class="textwhitecolor blockquote">Share your referral link or QR code and get commission for referred token purchases instantly to your wallet.</span>
          <span><input class="form-control" type="text" id="referLink" size="30%" readonly="true"></span>
          <hr class="bg-danger border-3 border-top border-info">
-         <div>
-            <button class="btn hero-btn-box btn-lg" id="copyreflink">Copy link</button>
+         <div align="center">
+            <button class="btn hero-btn-box btn-lg" id="copyreflink" >Copy link</button>
             </div>
                 <span class="textwhitecolor" id="refErr" class="err" style="display: none">Please connect your wallet on Binance Smart Chain to generate your referral link!</span>
             </div>
@@ -594,99 +592,35 @@
         <div class="owl-carousel owl-theme">
           <div class="media-item">
             <div class="media-item-image-wrapper">
-            <iframe
-              width="100%"
-              height="300"
-              src="https://www.youtube.com/embed/IN2VseRZeZI&autoplay=1"
-              srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/IN2VseRZeZI?autoplay=1><img src=https://img.youtube.com/vi/IN2VseRZeZI/hqdefault.jpg alt='Welcome to Phenix Finance | Project Introduction'><span>▶</span></a>"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              title="Welcome to Phenix Finance | Project Introduction"
-            ></iframe>
+             <img src="./img/team/rocky_azhi.png" />
             </div>
             <div class="media-item-content-wrapper">
-              <h4 class="heading_Four media-item-heading-content">
+              <h4 class="heading_Four media-item-heading-content" align="center">
                 Rocky Azhi | CEO
               </h4>
             </div>
           </div>
           <div class="media-item">
             <div class="media-item-image-wrapper">
-            <iframe
-              width="100%"
-              height="300"
-              src="https://www.youtube.com/embed/ZRlCRKlE6_k&autoplay=1"
-              srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/ZRlCRKlE6_k?autoplay=1><img src=https://img.youtube.com/vi/ZRlCRKlE6_k/hqdefault.jpg alt='Phenix Finance Review | REAL-World Utilities With 66,666% APY $PHNX'><span>▶</span></a>"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              title="Phenix Finance Review | REAL-World Utilities With 66,666% APY $PHNX"
-            ></iframe>
+                <img src="./img/team/Fengying_Chen.png" />
             </div>
             <div class="media-item-content-wrapper">
-              <h4 class="heading_Four media-item-heading-content">
+              <h4 class="heading_Four media-item-heading-content" align="center">
                 Fengying Chen | CFO
               </h4>
             </div>
           </div>
           <div class="media-item">
             <div class="media-item-image-wrapper">
-            <iframe
-              width="100%"
-              height="300"
-              src="https://www.youtube.com/embed/-X3k3y6_yHE&autoplay=1"
-              srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/-X3k3y6_yHE?autoplay=1><img src=https://img.youtube.com/vi/-X3k3y6_yHE/hqdefault.jpg alt='Phenix Finance - 66,666%+ APY on the Cronos Chain! (Passive Income with CRO)'><span>▶</span></a>"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              title="Phenix Finance - 66,666%+ APY on the Cronos Chain! (Passive Income with CRO)"
-            ></iframe>
+              <img src="./img/team/goro.png" />
             </div>
             <div class="media-item-content-wrapper">
-              <h4 class="heading_Four media-item-heading-content">
+              <h4 class="heading_Four media-item-heading-content" align="center">
                 Goro Hachiro  | COO
               </h4>
             </div>
           </div>
-          <div class="media-item">
-            <div class="media-item-image-wrapper">
-            <iframe
-              width="100%"
-              height="300"
-              src="https://www.youtube.com/embed/GDOddokLi_c&autoplay=1"
-              srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/GDOddokLi_c?autoplay=1><img src=https://img.youtube.com/vi/GDOddokLi_c/hqdefault.jpg alt='PHENIX FINANCE! EARLY NEW TITANO FORK ON CRONOS Huge 100X Returns Potential, Launch Soon!! WATCH NOW'><span>▶</span></a>"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              title="PHENIX FINANCE! EARLY NEW TITANO FORK ON CRONOS Huge 100X Returns Potential, Launch Soon!! WATCH NOW"
-            ></iframe>
-            </div>
-            <div class="media-item-content-wrapper">
-              <h4 class="heading_Four media-item-heading-content">
-                Chyou Shing | CMO
-              </h4>
-            </div>
-          </div>
-          <div class="media-item">
-            <div class="media-item-image-wrapper">
-            <iframe
-              width="100%"
-              height="300"
-              src="https://www.youtube.com/embed/rkOvqqnrsG8&autoplay=1"
-              srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style><a href=https://www.youtube.com/embed/rkOvqqnrsG8?autoplay=1><img src=https://img.youtube.com/vi/rkOvqqnrsG8/hqdefault.jpg alt='PHENIX FINANCE New Titano Fork in Cronos using RX3 protocol to get 66,666%+ APY'><span>▶</span></a>"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              title="PHENIX FINANCE New Titano Fork in Cronos using RX3 protocol to get 66,666%+ APY"
-            ></iframe>
-            </div>
-            <div class="media-item-content-wrapper">
-              <h4 class="heading_Four media-item-heading-content">
-                Akio Atsushi | CTO
-              </h4>
-            </div>
-          </div>
+         f
          
         </div>
       </div>
@@ -930,7 +864,7 @@
           </ul>
         </div>
         <div class="footer__bottom">
-          <a href=""
+          <a href="" 
             ><img class="footer__logo" src="./img/logo/footer-logo.png" alt=""
           /></a>
           <p class="footer__text">
