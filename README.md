@@ -9,12 +9,11 @@ AZHI Token which is a project focused on community strength that seeks to provid
 * Name : AZHI TOKEN
 * Supplay Token : 2,1 B
 * Syimbol : AZHI
-* Community Airdrop : 500 Mn
-* Azhi Investor : 400 Mn
-* List Exsternal Dex : 300 Mn
-* Azhi swap & Exchage : 300 Mn
-* Azhi live Reward : 300 Mn
-* Azhi STAKE Reward : 300 Mn
+* Investor internal : 294 Mn
+* Investor Exsternal : 105 Mn
+* Community Airdrop : 588 Mn
+* Azhi swap & Exchage : 567 Mn
+* AzhiSTAKE & AzhiLive Reward : 546 Mn
 
 # Azhi Token Platform
 1. Azhi Swap & Exchange
