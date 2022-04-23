@@ -21,3 +21,33 @@ AZHI Token which is a project focused on community strength that seeks to provid
 2. Azhi Live (WatchToEarn)
 3. NFT Marketplace
 4. Metaverse
+
+# Roadmaps
+1. Phase I
+ * Idea & Feasibility Validation
+ * Team Building
+ * Configuration and design
+ * AZHI Token Developement
+ * Website Developement
+ * AZHI TOKEN Promotion
+ * Whitepaper Finalized
+ * Public Sale and Airdrop
+2. Phase II
+ * AZHI AUDIT AND KYC
+ * AZHILIVE DEVELOPEMENT
+ * AZHI STAKING PLATFORM
+ * DEFI SWAP(MIN HOLDER 50.000)
+ * MARKET LISTING (MIN HOLDER 40.000)
+3. Phase III
+ * Azhiv Platform Developement
+ * Azhiv Launched
+ * AzhiSEA NFT Platform Developement
+ * AzhiSEA NFT Launched
+ * AZHI MARKETCAP LISTING
+ * NFT ACADEMY AND COMMUNITY
+4. Phase IV
+ * METAVERSE EDUCATION
+ * INTERNATIONAL LEGAL RELEASE
+ * AZHIBOOKS PLATFORM
+ * AZHIBOOKS PROMOTION
+ * AZHI PLATFORM PROMOTION AND EDUATAION INTEGRATED
